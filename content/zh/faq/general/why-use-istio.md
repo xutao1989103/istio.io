@@ -1,10 +1,10 @@
 ---
-title: Why would I want to use Istio?
-weight: 20
+标题: 为什么我们要使用 Istio?
+比重: 20
 ---
 
-Traditionally, much of the logic handled by Istio has been built directly into applications. Across a fleet of services, managing updates to this communications logic can be a large burden. Istio provides an infrastructure-level solution to managing service communications.
+一般来说，由 Istio 处理的逻辑已经被内建在应用程序本身。在众多服务中，管理此通信逻辑的更新可能会是一个沉重的负担。Istio提供了一个基础设施级别的服务通信管理方案。
 
-*Application developers*: With Istio managing how traffic flows across their services, developers can focus exclusively on business logic and iterate quickly on new features.
+*应用开发者* : 使用 Istio 来管理服务间的流量，开发者能够更加聚焦在业务逻辑的开发，并更快的迭代新功能。
 
-*Service operators*: Istio enables policy enforcement and mesh monitoring from a single centralized control point, independent of application evolution. As a result, operators can ensure continuous policy compliance through a simplified management plane.
+*运维人员* : Istio能够基于单中心控制节点来实现策略实施和网格监控，独立于应用的发展 。因此 ， 运维人员能够通过一个简单的控制平面确保持续的策略合规性
